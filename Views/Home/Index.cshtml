@@ -1,8 +1,13 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<h4>Nossos cursos</h4>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div class="card text-bg-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">@ViewData["nome"]</div>
+  <div class="card-body">
+    <h5 class="card-title">@ViewData["titulo"]</h5>
+    <p class="card-text">@ViewData["descricao"]</p>
+  </div>
+  <div class="card-footer">
+    <p class=" card-text">@ViewData["ch"]</p>
+  </div>
 </div>

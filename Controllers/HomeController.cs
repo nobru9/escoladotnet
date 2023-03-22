@@ -15,11 +15,12 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
-    }
-
-    public IActionResult Privacy()
-    {
+        int ch = 40;
+        
+        ViewData["nome"] = "TI Essencial";
+        ViewData["titulo"] = "Uma visão geral da TI";
+        ViewData["ch"] = $"Teremos {ch} horas de imersão nos fundamentos da TI";
+        ViewData["descricao"] = "Nesse curso você vai aprender os primeiros passos na tecnologia da infromação, conhecer o hardware, software, redes, protocolos e conhecimentos básicos para depois mergulhar no mundo do desenvolvimento de software da Microsoft.";
         return View();
     }
 
