@@ -15,12 +15,19 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        int ch = 40;
-        
-        ViewData["nome"] = "TI Essencial";
-        ViewData["titulo"] = "Uma visão geral da TI";
-        ViewData["ch"] = $"Teremos {ch} horas de imersão nos fundamentos da TI";
-        ViewData["descricao"] = "Nesse curso você vai aprender os primeiros passos na tecnologia da infromação, conhecer o hardware, software, redes, protocolos e conhecimentos básicos para depois mergulhar no mundo do desenvolvimento de software da Microsoft.";
+        var curso = new Curso(){
+            Id = 1,
+            Nome = "Introdução à Programação",
+            Descricao = "Fundamentos de programação e algoritmos estruturados",
+            Perfil = "Estudantes e aprendizes no geral",
+            PreRequisitos = "Informática básica",
+            Conteudo = "1 - Introdução. 2 - Lógica. 3 - Estruturas. 4 - Vetores. 5 - Funções. 6 - Matrizes. 7 - Estruturas de dados. 8 - Resgistros.",
+            CargaHoraria = 40,
+            PrazoMeses = 1,
+            Titulo = "Primeiros passos na programação"
+        };
+
+        ViewData["curso"] = curso;
         return View();
     }
 
