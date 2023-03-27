@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\EscolaDotNET.csproj": {}
+    "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\EscolaDotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\EscolaDotNET.csproj": {
+    "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\EscolaDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\EscolaDotNET.csproj",
-        "projectName": "EscolaDotNET",
-        "projectPath": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\EscolaDotNET.csproj",
+        "projectUniqueName": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\EscolaDotNet.csproj",
+        "projectName": "EscolaDotNet",
+        "projectPath": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\EscolaDotNet.csproj",
         "packagesPath": "C:\\Users\\juanb\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\obj\\",
         "projectStyle": "PackageReference",

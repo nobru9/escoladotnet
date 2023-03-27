@@ -1,23 +1,32 @@
-﻿
-@{
-  var curso = ViewData["curso"] as Curso;
+﻿@{
+
+    var curso = ViewBag.Curso;
 }
 
-<h4>Nossos cursos</h4>
+<h4>Nossos Cursos</h4>
 
-<div class="card text-bg-light mb-3" style="max-width: 18rem;">
-  <div class="card-header">@curso?.Nome</div>
-  <div class="card-body">
-    <h5 class="card-title">@curso?.Titulo</h5>
-    <p class="card-text">@curso?.Descricao</p>
-  </div>
-  <div class="card-footer">
-    <p class=" card-text">Carga Horária: @curso?.CargaHoraria</p>
-  </div>
+<div class="card" style="width: 15rem;">
+    <img src="~/img/CardCursoTI.jpeg" class="card-img-top" alt="1000px">
+    <div class="card-body" Id="Card">
+        <h5 class="card-title">@curso?.Nome</h5>
+        <p class="card-text">@curso?.Titulo</p>
+        <p class="card-text">@curso?.Descricao</p>
+        
+
+
+        <div class="row">
+    <div class="col">
+        <p>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                aria-expanded="false" aria-controls="collapseExample1">
+                Conteúdo Programático
+            </a>
+        </p>
+        <div class="collapse collapse horizontal" id="collapseExample1">
+            <div class="card card-body">
+                @curso?.Conteudo
+            </div>
+        </div>
+    </div>
+    <footer class="card-footer">Carga Horária: @curso?.CargaHoraria</footer>
 </div>
-
-<p>
-   <h6>Conteúdo Programático</h6>
-   @curso?.Conteudo
-
-</p>

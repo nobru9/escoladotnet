@@ -1,4 +1,4 @@
-namespace EscolaDotNET;
+namespace EscolaDotNet.Models;
 
 public class Curso{
 

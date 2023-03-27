@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\EscolaDotNET.bundle.scp.css",
-      "PackagePath": "staticwebassets\\EscolaDotNET.bundle.scp.css"
+      "Id": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\EscolaDotNet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EscolaDotNet.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\wwwroot\\css\\site.css",
@@ -11,6 +11,10 @@
     {
       "Id": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\wwwroot\\img\\CardCursoTI.jpeg",
+      "PackagePath": "staticwebassets\\img\\CardCursoTI.jpeg"
     },
     {
       "Id": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\wwwroot\\img\\EscolaDotNetLogo.png",
@@ -249,20 +253,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EscolaDotNET.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EscolaDotNet.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EscolaDotNET.props",
-      "PackagePath": "build\\EscolaDotNET.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EscolaDotNet.props",
+      "PackagePath": "build\\EscolaDotNet.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EscolaDotNET.props",
-      "PackagePath": "buildMultiTargeting\\EscolaDotNET.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EscolaDotNet.props",
+      "PackagePath": "buildMultiTargeting\\EscolaDotNet.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EscolaDotNET.props",
-      "PackagePath": "buildTransitive\\EscolaDotNET.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EscolaDotNet.props",
+      "PackagePath": "buildTransitive\\EscolaDotNet.props"
     }
   ],
   "ElementsToRemove": []
