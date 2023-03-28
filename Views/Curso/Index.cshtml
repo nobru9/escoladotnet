@@ -1,0 +1,51 @@
+
+@model ListaCursoViewModel
+<h4>Lista de Cursos</h4>
+
+<div class= "row">
+    <h1>@ViewData["titulo"]</h1>
+    <table class = "table">
+
+        <thead>
+            <tr>
+                <th scope = "Col">Id</th>
+                <th scope = "Col">Nome</th>
+                <th scope = "Col">Título</th>
+                <th scope = "Col">Descricao</th>
+                <th scope = "Col">Perfil</th>
+                <th scope = "Col">Requisitos</th>
+                <th scope = "Col">Conteúdo Programático</th>
+                <th scope = "Col">Recursos</th>
+                <th scope = "Col">Carga Horária</th>
+                <th scope = "Col">Meses</th>
+                <th scope = "Col">Iniciar</th>
+                <th scope = "Col">Deletar</th>
+                <th scope = "Col">Atualizar</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model.Cursos)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Titulo</td>
+                    <td>@item.Descricao</td>
+                    <td>@item.Perfil</td>
+                    <td>@item.PreRequisitos</td>
+                    <td>@item.Conteudo</td>
+                    <td>@item.Recursos</td>
+                    <td>@item.CargaHoraria</td>
+                    <td>@item.PrazoMeses</td>
+                    <td><button type="button" class="btn btn-outline-success">Iniciar</button></td>
+                    <td><a asp-controller="Curso" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Deletar</a></td>
+                    <td><button type="button" class="btn btn-outline-info">Atualizar</button></td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>

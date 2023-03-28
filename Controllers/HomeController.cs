@@ -27,6 +27,7 @@ public class HomeController : Controller
             PrazoMeses = 1,
             Titulo = "Primeiros passos na programação"
         };
+        ViewData["titulo"] = "Página Pricipal";
         ViewBag.Curso = curso;
         TempData["mensagem"] = "Mensagem vinda da Action Index";
         return View();
@@ -61,6 +62,7 @@ public class HomeController : Controller
             TituloPagina = "Detalhes do Curso"
         };
         return View(ViewModel);
+
 
     }
 }

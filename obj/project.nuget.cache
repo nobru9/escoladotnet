@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kzcg9iszqdF72Kct5tI+Iuukceah68/CZdt9EikxgLqN/i1WwWpjO1ZVrZYN4UEiwciM6FDiLXtKUTqQ1sE3Gw==",
+  "dgSpecHash": "2SAMPFaXIBDCU9roZaq0SfcPiyD0r78BhHSkv4u+w7pM06Z5Vk9G/GSCF+IkTbuct8VdoFPdrv0OUjv5iyse/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juanb\\source\\repos\\EscolaDotNET\\EscolaDotNet.csproj",
+  "projectFilePath": "C:\\users\\juanb\\source\\repos\\EscolaDotNet\\EscolaDotNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juanb\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\juanb\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
